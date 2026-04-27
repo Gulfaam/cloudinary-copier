@@ -16,6 +16,19 @@ export const metadata: Metadata = {
   title: 'Cloudinary Folder Copier | Seamless Asset Transfer',
   description: 'An elegant and efficient tool to transfer full folders and their contents between Cloudinary accounts seamlessly.',
   keywords: ['Cloudinary', 'Asset Transfer', 'Folder Copy', 'Tool', 'Web App', 'SEO Optimized'],
+  openGraph: {
+    title: 'Cloudinary Folder Copier | Seamless Asset Transfer',
+    description: 'An elegant and efficient tool to transfer full folders and their contents between Cloudinary accounts seamlessly.',
+    url: 'https://cloudinarycopier.gulfaam.dev',
+    siteName: 'Cloudinary Copier',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cloudinary Folder Copier | Seamless Asset Transfer',
+    description: 'An elegant and efficient tool to transfer full folders and their contents between Cloudinary accounts seamlessly.',
+  },
 };
 
 export default function RootLayout({
